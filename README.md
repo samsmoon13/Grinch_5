@@ -2,8 +2,8 @@
 # Grinch Console App
 
 ## Overview
-Grinch is a .NET console application that uses Entity Framework Core with MySQL to perform database operations. 
-This project demonstrates basic database functionalities and provides a foundation for further development.
+Grinch is a .NET console application designed to manage expenses in a group. 
+It uses Entity Framework Core with MySQL to perform database operations, providing a robust and scalable solution for expense tracking.
 
 ## Requirements
 1. .NET SDK 6.0 or later.
