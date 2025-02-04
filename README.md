@@ -40,7 +40,7 @@ It uses Entity Framework Core with MySQL to perform database operations, providi
 
 5. Apply migrations and update the database schema:
    ```bash
-   dotnet ef database update --context AppDbContext --project Grinch.Data
+   dotnet ef database update --project Grinch.Data\Grinch.Data.csproj --startup-project Grinch.Data\Grinch.Data.csproj --context Grinch.Data.AppDbContext
    ```
 
 6. Run the application:
